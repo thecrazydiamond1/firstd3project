@@ -10,7 +10,9 @@ const Face =({
     strokeWidth,
     eyeOffsetX,
     eyeOffsetY,
-    eyeRadius
+    eyeRadius,
+    mouthRadius,
+    mouthWidth
 })=>{
     return(
     <FaceContainer
@@ -28,7 +30,10 @@ const Face =({
         eyeOffsetY={eyeOffsetY}
         eyeRadius={eyeRadius}
       />
-      <Mouth />
+      <Mouth
+        mouthRadius={mouthRadius}
+        mouthWidth={mouthWidth}
+      />
 
     </FaceContainer>)
 }

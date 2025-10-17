@@ -1,8 +1,11 @@
 import { arc } from 'd3';
-const Mouth =()=>{
+const Mouth =({
+    mouthRadius,
+    mouthWidth
+})=>{
     const mouthArc = arc()
-      .innerRadius(90)
-      .outerRadius(100)
+      .innerRadius(mouthRadius)
+      .outerRadius(mouthRadius + mouthWidth)
       .startAngle(Math.PI / 2)
       .endAngle(Math.PI * (3 / 2));
     return <path d={mouthArc()} />;
