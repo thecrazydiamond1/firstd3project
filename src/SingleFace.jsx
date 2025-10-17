@@ -1,4 +1,4 @@
-import Face from './Face';
+import Face from "./FaceComponents/Face";
 
 const width = 960;
 const height = 500;

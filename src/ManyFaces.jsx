@@ -1,5 +1,5 @@
-import Face from './Face';
 import { range } from 'd3';
+import Face from './FaceComponents/Face';
 
 const width = 160;
 const height = 160;

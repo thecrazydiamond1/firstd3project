@@ -1,7 +1,8 @@
 import BackgroundCircle from './Background';
 import Eyes from './Eyes';
-import Mouth from './mouth';
 import FaceContainer from './FaceContainer';
+import Mouth from './mouth';
+
 const Face =({
     centerX,
     centerY,
